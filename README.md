@@ -2,7 +2,7 @@
 
 **Chain:** BSC
 
-**Date:** February 24, 2025
+**Date:** February 24, 2026
 
 **Attacker:** `0x8E6149b4a6AB28Db7d4b1E8261bD71364307FCFD`
 
