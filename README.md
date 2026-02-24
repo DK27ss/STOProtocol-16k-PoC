@@ -225,6 +225,8 @@ The Pair reserves were synced to `(WBNB, 43,845)` by the burn, but the actual ST
 
 STO reserve resets to the same **43,845 STO** every cycle (burn removes 173,391, then sell adds 173,391 back), only WBNB decreases, exponentially, the compounding drain extracts 79.8% of remaining WBNB per cycle.
 
+<img width="855" height="269" alt="image" src="https://github.com/user-attachments/assets/ba3ddc6b-8506-4b7d-a459-0d06cd3fbe1c" />
+
 // Repay and Profit
 
 After the drain loop, the attacker holds ~360,921 WBNB (extracted from pair), moolah pulls 360,894 WBNB via `transferFrom`.
@@ -236,6 +238,8 @@ After the drain loop, the attacker holds ~360,921 WBNB (extracted from pair), mo
 | Pair WBNB remaining | 0.000000000000000001 WBNB |
 
 The attacker unwrapped the profit to BNB and sent it to EOA `0x622DDba7`.
+
+<img width="1104" height="163" alt="image" src="https://github.com/user-attachments/assets/9f2ac727-f5c5-4e5e-a30a-b3641480e825" />
 
 ---
 
