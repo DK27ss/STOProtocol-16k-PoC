@@ -6,7 +6,7 @@
 
 **Attacker:** `0x8E6149b4a6AB28Db7d4b1E8261bD71364307FCFD`
 
-**Profit:** ~26.57 BNB (~$16,100 USD)
+**Profit:** 26.57 BNB (~$16,100 USD)
 
 **Root cause:** Logic error permit deflationary sell-burn drains AMM reserves mid-swap
 
