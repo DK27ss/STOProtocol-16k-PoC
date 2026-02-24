@@ -23,14 +23,7 @@
 
 ## Summary
 
-STO Protocol is a deflationary BEP-20 token on BSC with the following features:
-
-- **Total supply:** 10,000,000 STO, deflationary down to 10,000 STO
-- **6% buy/sell tax** sent to an ecosystem wallet
-- **Sell burn:** after each sell, the post-tax tokens (`afterTax`) are queued in `pendingBurnFromSell` and burned from the PancakeSwap pair on the **next** sell
-- **Daily burn:** 3% of pair balance burned every 24h (half to LP dividends, half to dead address)
-- **Whitelist-only liquidity addition**, open buying/selling (when enabled)
-- **Auto-buy threshold:** buying is automatically enabled when pair WBNB reaches 2,000 BNB via `initializeLiquidity`
+STO Protocol is a deflationary BEP-20 token on BSC designed to reduce its supply from 10M to 10K STO, a 6% tax on every buy and sell is sent to an ecosystem wallet, the key deflationary mechanism is the **deferred sell burn**: when a user sells, the post-tax tokens (`afterTax`) are queued in `pendingBurnFromSell` and only burned from the PancakeSwap pair on the next sell, via a direct balance removal followed by `sync()`, a separate daily burn removes 3% of the pair STO balance every 24h, liquidity addition is whitelist-only, and buying is disabled by default until the pair WBNB balance reaches 2,000 BNB — a threshold checked exclusively inside `initializeLiquidity()`.
 
 ---
 
