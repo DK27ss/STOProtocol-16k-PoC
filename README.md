@@ -183,7 +183,7 @@ Router.swapExactTokensForTokensSupportingFeeOnTransferTokens(
 | Pair STO | ~7,892,677 STO | ~43,845 STO |
 | Attacker STO | ~0 | ~7,377,902 STO (after 6% buy tax) |
 
-The pair now holds nearly all the flash-loaned WBNB and very little STO. This is the setup for the drain.
+The pair now holds nearly all the flash-loaned WBNB and very little STO, this is the setup for the drain.
 
 // Drain loop (45 Cycles)
 
