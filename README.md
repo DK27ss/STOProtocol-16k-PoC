@@ -237,7 +237,7 @@ After the drain loop, the attacker holds ~360,921 WBNB (extracted from pair), mo
 | WBNB remaining (profit) | **26.571 WBNB** |
 | Pair WBNB remaining | 0.000000000000000001 WBNB |
 
-The attacker unwrapped the profit to BNB and sent it to EOA `0x622DDba7`.
+The attacker unwrap the profit to BNB and sent it to EOA `0x622DDba7`.
 
 <img width="1104" height="163" alt="image" src="https://github.com/user-attachments/assets/9f2ac727-f5c5-4e5e-a30a-b3641480e825" />
 
