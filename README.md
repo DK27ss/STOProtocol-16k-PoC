@@ -1,5 +1,5 @@
-> # STOProtocol-16k-PoC
->
+ # STOProtocol-16k-PoC
+ 
 > **Chain:** BSC
 >
 > **Date:** February 24, 2026
